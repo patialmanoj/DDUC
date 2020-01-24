@@ -68,7 +68,7 @@
             <div class="wrapper clearfix">
                 <div class="main-content">
                     <div class="top-news-section">
-                        <div class="news-listing top-news">
+                        <div class="news-listing top-news bigNews">
                             <ul class="clearfix" data-msid="60478053">
                                 <li class="clearfix">
                                   <a
@@ -139,19 +139,23 @@
           <div class="bottom-area">
             <div class="wrapper">
                 <p><a href="/toi-plus/faq" class="linkfaq">FAQ’s</a></p>
-                <p>Deen Dayal Upadhyaya College. All rights reserved.</p>
+                <p><a href="https://dducollegedu.ac.in/">Deen Dayal Upadhyaya College. All rights reserved.</a></p>
             </div>
           </div>
       </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../js/news.js"></script>
+    <script src="../model/newsData.js"></script>
+    
     <script>
       // $(document).ready(function(){
       //     console.log("DOM is ready ");
       // });
-      // $(function(){
-      //     console.log("Can we write it again !!");
-      // });
+      $(function(){
+          console.log("Can we write it again !!");
+          newsPlugin.init();
+      });
     </script>
   </body>
 </html>
