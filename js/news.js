@@ -4,9 +4,7 @@ var  newsPlugin = (function(){
     graphData = undefined;
     function init(){
         console.log("plugin module is init ");
-        $('.slider ul').data("marginleft",0);
-        $('.slider ul').data("marginright",900);
-        
+        // initSlider();
         data = DataManager.sportsData;
         graphData = DataManager.graphData;
         console.log(graphData);
@@ -14,6 +12,13 @@ var  newsPlugin = (function(){
         createNewsGraph();
         bindClicks();
         
+    }
+
+    function initSlider(){
+      $('.slider').removeClass("hide");
+      $('.slider ul').data("marginleft",0);
+      $('.slider ul').data("marginright",900);
+      
     }
     function bindClicks(){
       $('.slider_button').on("click",function(event){

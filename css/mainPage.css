@@ -272,6 +272,9 @@ p {
     width: 500px;
 }
 
+.hide{
+    display:none;
+}
 
 /* slider */
 .inner{
