@@ -264,3 +264,55 @@ p {
     overflow: hidden;
     position: relative;
 }
+
+/* part 5 */
+.graph-listing{
+    background: #f3eaea;
+    height: auto;
+    width: 500px;
+}
+
+
+/* slider */
+.inner{
+    position: relative;
+    height: 98%;
+    width: 900px;
+    margin: 0px auto;
+    background-color: red;
+    padding: 3px 15px;
+    overflow: hidden;
+}
+.slider{
+    padding: 10px 10px;
+    height: 138px;
+}
+.inner ul { overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    display: block;
+    height: 95%;
+    padding: 0px;
+}
+.inner ul li{        width: 200px;
+    display: inline-block;
+    height: 85%;
+    background-color: green;
+    position: relative;
+    margin: 0px 2px;}
+
+span.slider_button {
+    position: relative;
+    top: -90px;
+    margin-left: 19%;
+    display: inline-block;
+    margin-right: 19%;
+    cursor: pointer;
+    height: 36px;
+    background-color: blue;
+    width: 35px;
+    float:left;
+}
+span.right_bttn{
+    float:right;
+}
